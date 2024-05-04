@@ -18,6 +18,7 @@ if __name__ == "__main__":
     a, b, c, d = 2, 2, 4, 3
     
     print(f"a + b = {add(a, b)}")
+    add(a,b)
     compare(a, b)
     compare(c, d)
     print(increment(a))
