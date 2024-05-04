@@ -4,7 +4,7 @@ def add(a, b):
 def compare(a, b):
     if a > b:
         print(f"{a} > {b}")
-    elif a > b:
+    elif a > b: # duplicate condition
         print(f"{a} = {b}")
     else:
         print(f"{a} < {b}")
